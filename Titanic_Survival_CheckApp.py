@@ -37,7 +37,7 @@ def preprocess_input(input_df):
 def main():
     st.title('Titanic Survivor Prediction App')
     st.write('This App determines if a Titanic ship passenger survived or died in the illfated ship capsize that occured April, 1912, depending on some available features. ')
-    img = Image.open('Titanic-Sinking.jpg')
+    img = Image.open('titanic.jpeg')
     st.image(img, width=500)
     st.sidebar.text("Number of deaths: 1,496\nDates: 14 Apr 1912 – 15 Apr 1912\nLocation: North Atlantic Ocean\nCause: Collision with iceberg on 14 April")
     input_data = {} # Dictionary to store input data
